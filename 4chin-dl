@@ -33,7 +33,7 @@ def download_thread(json_data, board):
                 f.write(w.content)
 
         except KeyError:
-            return ""
+            print("")
 
 
 if args.url == None or args.url == "":
